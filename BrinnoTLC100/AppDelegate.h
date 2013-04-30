@@ -11,5 +11,11 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSPopUpButtonCell *volumeSelector;
+@property (weak) IBOutlet NSDatePicker *datePicker;
+@property (weak) IBOutlet NSTextField *intervalLabel;
+@property (weak) IBOutlet NSSlider *intervalSlider;
+@property (weak) IBOutlet NSButton *lowLightToggle;
+@property (weak) IBOutlet NSPopUpButton *powerFrequencyPicker;
 
 @end
