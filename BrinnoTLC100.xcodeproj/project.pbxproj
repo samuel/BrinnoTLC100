@@ -17,7 +17,8 @@
 		7EA59DF4172F6803009EA510 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA59DD4172F6802009EA510 /* Cocoa.framework */; };
 		7EA59DFC172F6803009EA510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59DFA172F6803009EA510 /* InfoPlist.strings */; };
 		7EA59DFF172F6803009EA510 /* BrinnoTLC100Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA59DFE172F6803009EA510 /* BrinnoTLC100Tests.m */; };
-		7EA59E0B172FA924009EA510 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59E0A172FA924009EA510 /* README.txt */; };
+		7EA59E0B172FA924009EA510 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59E0A172FA924009EA510 /* README.md */; };
+		7EA59E0D172FAA13009EA510 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59E0C172FAA13009EA510 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		7EA59DFB172F6803009EA510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EA59DFD172F6803009EA510 /* BrinnoTLC100Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrinnoTLC100Tests.h; sourceTree = "<group>"; };
 		7EA59DFE172F6803009EA510 /* BrinnoTLC100Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrinnoTLC100Tests.m; sourceTree = "<group>"; };
-		7EA59E0A172FA924009EA510 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		7EA59E0A172FA924009EA510 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7EA59E0C172FAA13009EA510 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,8 @@
 		7EA59DC8172F6802009EA510 = {
 			isa = PBXGroup;
 			children = (
-				7EA59E0A172FA924009EA510 /* README.txt */,
+				7EA59E0C172FAA13009EA510 /* LICENSE */,
+				7EA59E0A172FA924009EA510 /* README.md */,
 				7EA59DDA172F6802009EA510 /* BrinnoTLC100 */,
 				7EA59DF7172F6803009EA510 /* BrinnoTLC100Tests */,
 				7EA59DD3172F6802009EA510 /* Frameworks */,
@@ -230,7 +233,8 @@
 				7EA59DDF172F6802009EA510 /* InfoPlist.strings in Resources */,
 				7EA59DE5172F6802009EA510 /* Credits.rtf in Resources */,
 				7EA59DEB172F6802009EA510 /* MainMenu.xib in Resources */,
-				7EA59E0B172FA924009EA510 /* README.txt in Resources */,
+				7EA59E0B172FA924009EA510 /* README.md in Resources */,
+				7EA59E0D172FAA13009EA510 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
