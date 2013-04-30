@@ -129,6 +129,9 @@ static const char *registryTemplate = "\xb6\xc3\x10\x00\x28\xe1\x2b\xfe\x7f\x00\
         [alert beginSheetModalForWindow:self.window modalDelegate:nil didEndSelector:nil contextInfo:nil];
         return;
     }
+
+    NSAlert *alert = [NSAlert alertWithMessageText:@"Complete" defaultButton:nil alternateButton:nil otherButton:nil informativeTextWithFormat:@"Configuration successfuly completed. You may now unmount the volume and use it to configure your Brinno TLC100."];
+    [alert beginSheetModalForWindow:self.window modalDelegate:nil didEndSelector:nil contextInfo:nil];
 }
 
 - (IBAction)intervalSlide:(NSSlider *)slider {
