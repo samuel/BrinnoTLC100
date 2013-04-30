@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EA59DD5172F6802009EA510 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA59DD4172F6802009EA510 /* Cocoa.framework */; };
+		7EA59DDF172F6802009EA510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59DDD172F6802009EA510 /* InfoPlist.strings */; };
+		7EA59DE1172F6802009EA510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA59DE0172F6802009EA510 /* main.m */; };
+		7EA59DE5172F6802009EA510 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59DE3172F6802009EA510 /* Credits.rtf */; };
+		7EA59DE8172F6802009EA510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA59DE7172F6802009EA510 /* AppDelegate.m */; };
+		7EA59DEB172F6802009EA510 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59DE9172F6802009EA510 /* MainMenu.xib */; };
+		7EA59DF3172F6803009EA510 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA59DF2172F6803009EA510 /* SenTestingKit.framework */; };
+		7EA59DF4172F6803009EA510 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA59DD4172F6802009EA510 /* Cocoa.framework */; };
+		7EA59DFC172F6803009EA510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EA59DFA172F6803009EA510 /* InfoPlist.strings */; };
+		7EA59DFF172F6803009EA510 /* BrinnoTLC100Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA59DFE172F6803009EA510 /* BrinnoTLC100Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EA59DF5172F6803009EA510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA59DC9172F6802009EA510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA59DD0172F6802009EA510;
+			remoteInfo = BrinnoTLC100;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EA59DD1172F6802009EA510 /* BrinnoTLC100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrinnoTLC100.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA59DD4172F6802009EA510 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7EA59DD7172F6802009EA510 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7EA59DD8172F6802009EA510 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7EA59DD9172F6802009EA510 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EA59DDC172F6802009EA510 /* BrinnoTLC100-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrinnoTLC100-Info.plist"; sourceTree = "<group>"; };
+		7EA59DDE172F6802009EA510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EA59DE0172F6802009EA510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA59DE2172F6802009EA510 /* BrinnoTLC100-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrinnoTLC100-Prefix.pch"; sourceTree = "<group>"; };
+		7EA59DE4172F6802009EA510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7EA59DE6172F6802009EA510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EA59DE7172F6802009EA510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EA59DEA172F6802009EA510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7EA59DF1172F6803009EA510 /* BrinnoTLC100Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrinnoTLC100Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA59DF2172F6803009EA510 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7EA59DF9172F6803009EA510 /* BrinnoTLC100Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrinnoTLC100Tests-Info.plist"; sourceTree = "<group>"; };
+		7EA59DFB172F6803009EA510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EA59DFD172F6803009EA510 /* BrinnoTLC100Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrinnoTLC100Tests.h; sourceTree = "<group>"; };
+		7EA59DFE172F6803009EA510 /* BrinnoTLC100Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrinnoTLC100Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA59DCE172F6802009EA510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA59DD5172F6802009EA510 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA59DED172F6803009EA510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA59DF3172F6803009EA510 /* SenTestingKit.framework in Frameworks */,
+				7EA59DF4172F6803009EA510 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA59DC8172F6802009EA510 = {
+			isa = PBXGroup;
+			children = (
+				7EA59DDA172F6802009EA510 /* BrinnoTLC100 */,
+				7EA59DF7172F6803009EA510 /* BrinnoTLC100Tests */,
+				7EA59DD3172F6802009EA510 /* Frameworks */,
+				7EA59DD2172F6802009EA510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA59DD2172F6802009EA510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DD1172F6802009EA510 /* BrinnoTLC100.app */,
+				7EA59DF1172F6803009EA510 /* BrinnoTLC100Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA59DD3172F6802009EA510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DD4172F6802009EA510 /* Cocoa.framework */,
+				7EA59DF2172F6803009EA510 /* SenTestingKit.framework */,
+				7EA59DD6172F6802009EA510 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EA59DD6172F6802009EA510 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DD7172F6802009EA510 /* AppKit.framework */,
+				7EA59DD8172F6802009EA510 /* CoreData.framework */,
+				7EA59DD9172F6802009EA510 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7EA59DDA172F6802009EA510 /* BrinnoTLC100 */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DE6172F6802009EA510 /* AppDelegate.h */,
+				7EA59DE7172F6802009EA510 /* AppDelegate.m */,
+				7EA59DE9172F6802009EA510 /* MainMenu.xib */,
+				7EA59DDB172F6802009EA510 /* Supporting Files */,
+			);
+			path = BrinnoTLC100;
+			sourceTree = "<group>";
+		};
+		7EA59DDB172F6802009EA510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DDC172F6802009EA510 /* BrinnoTLC100-Info.plist */,
+				7EA59DDD172F6802009EA510 /* InfoPlist.strings */,
+				7EA59DE0172F6802009EA510 /* main.m */,
+				7EA59DE2172F6802009EA510 /* BrinnoTLC100-Prefix.pch */,
+				7EA59DE3172F6802009EA510 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EA59DF7172F6803009EA510 /* BrinnoTLC100Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DFD172F6803009EA510 /* BrinnoTLC100Tests.h */,
+				7EA59DFE172F6803009EA510 /* BrinnoTLC100Tests.m */,
+				7EA59DF8172F6803009EA510 /* Supporting Files */,
+			);
+			path = BrinnoTLC100Tests;
+			sourceTree = "<group>";
+		};
+		7EA59DF8172F6803009EA510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59DF9172F6803009EA510 /* BrinnoTLC100Tests-Info.plist */,
+				7EA59DFA172F6803009EA510 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA59DD0172F6802009EA510 /* BrinnoTLC100 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA59E02172F6803009EA510 /* Build configuration list for PBXNativeTarget "BrinnoTLC100" */;
+			buildPhases = (
+				7EA59DCD172F6802009EA510 /* Sources */,
+				7EA59DCE172F6802009EA510 /* Frameworks */,
+				7EA59DCF172F6802009EA510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrinnoTLC100;
+			productName = BrinnoTLC100;
+			productReference = 7EA59DD1172F6802009EA510 /* BrinnoTLC100.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EA59DF0172F6803009EA510 /* BrinnoTLC100Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA59E05172F6803009EA510 /* Build configuration list for PBXNativeTarget "BrinnoTLC100Tests" */;
+			buildPhases = (
+				7EA59DEC172F6803009EA510 /* Sources */,
+				7EA59DED172F6803009EA510 /* Frameworks */,
+				7EA59DEE172F6803009EA510 /* Resources */,
+				7EA59DEF172F6803009EA510 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EA59DF6172F6803009EA510 /* PBXTargetDependency */,
+			);
+			name = BrinnoTLC100Tests;
+			productName = BrinnoTLC100Tests;
+			productReference = 7EA59DF1172F6803009EA510 /* BrinnoTLC100Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA59DC9172F6802009EA510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Samuel Stauffer";
+			};
+			buildConfigurationList = 7EA59DCC172F6802009EA510 /* Build configuration list for PBXProject "BrinnoTLC100" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EA59DC8172F6802009EA510;
+			productRefGroup = 7EA59DD2172F6802009EA510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA59DD0172F6802009EA510 /* BrinnoTLC100 */,
+				7EA59DF0172F6803009EA510 /* BrinnoTLC100Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA59DCF172F6802009EA510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA59DDF172F6802009EA510 /* InfoPlist.strings in Resources */,
+				7EA59DE5172F6802009EA510 /* Credits.rtf in Resources */,
+				7EA59DEB172F6802009EA510 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA59DEE172F6803009EA510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA59DFC172F6803009EA510 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EA59DEF172F6803009EA510 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA59DCD172F6802009EA510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA59DE1172F6802009EA510 /* main.m in Sources */,
+				7EA59DE8172F6802009EA510 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA59DEC172F6803009EA510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA59DFF172F6803009EA510 /* BrinnoTLC100Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EA59DF6172F6803009EA510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EA59DD0172F6802009EA510 /* BrinnoTLC100 */;
+			targetProxy = 7EA59DF5172F6803009EA510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EA59DDD172F6802009EA510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA59DDE172F6802009EA510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EA59DE3172F6802009EA510 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA59DE4172F6802009EA510 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7EA59DE9172F6802009EA510 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA59DEA172F6802009EA510 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7EA59DFA172F6803009EA510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA59DFB172F6803009EA510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA59E00172F6803009EA510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7EA59E01172F6803009EA510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7EA59E03172F6803009EA510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrinnoTLC100/BrinnoTLC100-Prefix.pch";
+				INFOPLIST_FILE = "BrinnoTLC100/BrinnoTLC100-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EA59E04172F6803009EA510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrinnoTLC100/BrinnoTLC100-Prefix.pch";
+				INFOPLIST_FILE = "BrinnoTLC100/BrinnoTLC100-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7EA59E06172F6803009EA510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrinnoTLC100.app/Contents/MacOS/BrinnoTLC100";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrinnoTLC100/BrinnoTLC100-Prefix.pch";
+				INFOPLIST_FILE = "BrinnoTLC100Tests/BrinnoTLC100Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7EA59E07172F6803009EA510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrinnoTLC100.app/Contents/MacOS/BrinnoTLC100";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrinnoTLC100/BrinnoTLC100-Prefix.pch";
+				INFOPLIST_FILE = "BrinnoTLC100Tests/BrinnoTLC100Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA59DCC172F6802009EA510 /* Build configuration list for PBXProject "BrinnoTLC100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA59E00172F6803009EA510 /* Debug */,
+				7EA59E01172F6803009EA510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA59E02172F6803009EA510 /* Build configuration list for PBXNativeTarget "BrinnoTLC100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA59E03172F6803009EA510 /* Debug */,
+				7EA59E04172F6803009EA510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EA59E05172F6803009EA510 /* Build configuration list for PBXNativeTarget "BrinnoTLC100Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA59E06172F6803009EA510 /* Debug */,
+				7EA59E07172F6803009EA510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA59DC9172F6802009EA510 /* Project object */;
+}
