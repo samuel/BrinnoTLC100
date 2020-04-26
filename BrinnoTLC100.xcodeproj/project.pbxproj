@@ -201,7 +201,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0610;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Samuel Stauffer";
 			};
 			buildConfigurationList = 7EA59DCC172F6802009EA510 /* Build configuration list for PBXProject "BrinnoTLC100" */;
@@ -421,6 +421,7 @@
 		7EA59E03172F6803009EA510 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrinnoTLC100/BrinnoTLC100-Prefix.pch";
@@ -434,6 +435,7 @@
 		7EA59E04172F6803009EA510 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrinnoTLC100/BrinnoTLC100-Prefix.pch";
